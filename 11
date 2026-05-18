@@ -6,17 +6,6 @@ spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/Del-TopBarApp"))()
 end)
 
-
-spawn(function()
-wait(168)
---loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/01/main/Gift-Item"))()
-end)
-
-spawn(function()
-wait(686)
---loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/01/main/Gift-Gem"))()
-end)
-
 task.wait(7)
 --_G.offset = 0.65
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
