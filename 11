@@ -1,18 +1,9 @@
 spawn(function()
-wait(1)
-_G.Config={UserID="cf2b68ab-24d5-453a-9204-2d6cd6a8d72e",discord_id="1092353095171833906",Note="Pc111"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/pet99"))()end)if s then break end wait(5)end
-end)
-
-spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/01/main/V-01"))()
 end)
 
 spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/Del-TopBarApp"))()
-end)
-
-spawn(function()
---loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/A-UI-Time-username"))()
 end)
 
 
