@@ -34,6 +34,8 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "RNGExtraEgg",   MaxTier = 8  },
 }
 getgenv().GKICK_ON_STAFF = true
+getgenv().GDAYCARE = true
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin"}
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Locked Hype Egg 3","Titanic Fantasy Present"}
 getgenv().GMASTERY_TO_MAX = "Enchants"
 getgenv().GCLEAR_FAVORITE_PETS = true
