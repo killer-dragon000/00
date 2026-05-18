@@ -5,7 +5,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/D
 end)
 
 task.wait(10)
---_G.offset = 0.65
+_G.offset = 0.68
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
 getgenv().GDO_RNG_INSTANCE = true
 getgenv().GUSE_BOOSTS = true
