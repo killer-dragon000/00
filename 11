@@ -20,9 +20,6 @@ end)
 task.wait(7)
 --_G.offset = 0.65
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
-getgenv().GRANK_TO = 40 -- Set your desired rank
-getgenv().GFOCUS_RANK_TO = 11 -- don't put too high because they will not get to end of game before hitting this rank, but they rank faster.
-getgenv().GZONE_TO = 999
 getgenv().GDO_RNG_INSTANCE = true
 getgenv().GUSE_BOOSTS = true
 getgenv().GRNG_SELL_PETS = true
