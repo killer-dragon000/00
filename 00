@@ -8,7 +8,7 @@ spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/A-Kick-Rank"))()
 end)
 
-task.wait(7)
+task.wait(20)
 --_G.offset = 0.65
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
 getgenv().GRANK_FIRST = true
