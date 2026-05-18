@@ -28,19 +28,7 @@ getgenv().GRANK_TO = 8 -- Set your desired rank
 getgenv().GREBIRTH_TO = 9
 getgenv().GFOCUS_RANK_TO = 8 -- don't put too high because they will not get to end of game before hitting this rank, but they rank faster.
 getgenv().GZONE_TO = 999
---getgenv().GDO_RNG_INSTANCE = true
 getgenv().GUSE_BOOSTS = true
-getgenv().GRNG_SELL_PETS = true
-getgenv().GRNG_CRAFT_DICE = true
-getgenv().GRNG_ALLOW_BOOST_DICE_WITHOUT_LIGHTNING_WHEN_HAVE_OVER = 10
-getgenv().GRNG_USE_MEGA1 = false
-getgenv().GEVENT_UPGRADES = {
-    { Id = "RNGEggLuck",    MaxTier = 20 },
-    { Id = "RNGHatchSpeed", MaxTier = 10 },
-    { Id = "RNGBonusLuck",  MaxTier = 10 },
-    { Id = "RNGHugeLuck",   MaxTier = 15 },
-    { Id = "RNGExtraEgg",   MaxTier = 8  },
-}
 getgenv().GKICK_ON_STAFF = true
 getgenv().GDAYCARE = true
 getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin"}
