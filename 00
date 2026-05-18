@@ -1,3 +1,4 @@
+setfpscap(3)
 spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/A-UI-Time-username"))()
 end)
