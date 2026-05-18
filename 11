@@ -4,7 +4,7 @@ spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dracular111/03/main/Del-TopBarApp"))()
 end)
 
-task.wait(20)
+task.wait(10)
 --_G.offset = 0.65
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
 getgenv().GDO_RNG_INSTANCE = true
