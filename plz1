@@ -1,0 +1,34 @@
+getgenv().Settings = {
+    Sniper = {
+        Active = true,
+        Items = {
+            ["Tech Key"] = {Price = "30%+", MaxPrice = nil, InventoryLimit = nil, MaxAmount = nil, AllTypes = false, AllTiers = false, DetectManipulation = false},
+            SearchTerminal = {}
+        },
+
+        ["Switch Servers"] = {Active = true, SecondDelay = 10, MinuteDelay = nil, OnlyPRO = false},
+        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/"%7D,
+        ["Kill Switch"] = {
+            ["Switch To Selling"] = true,
+            ["Minutes Timer"] = 120,
+            ["Diamonds Hit: 100m"] = true,
+            ["Limits Reached"] = true
+        },
+        ["Diamonds Sendout"] = {Active = false, Username = "", Amount = "10m"}
+    },
+
+    Seller = {
+        Active = false,
+        Items = {},
+        ["Switch Servers"] = {Active = false, SecondDelay = 600, MinuteDelay = nil, OnlyPRO = false},
+        ["Webhook"] = {Active = false, URL = ""},
+        ["Kill Switch"] = {
+            ["Switch To Sniping"] = true,
+            ["Minutes Timer"] = 120,
+            ["Booth Runout"] = true,
+            ["Diamonds Hit: 500m"] = true
+        },
+        ["Diamonds Sendout"] = {Active = false, Username = "", Amount = "50b"}
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/killer-dragon000/00/refs/heads/main/Plzplus"))()
